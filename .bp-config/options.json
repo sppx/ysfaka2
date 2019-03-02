@@ -2,5 +2,5 @@
     "ADMIN_EMAIL": "admin@ppxwo.net",
     "WEB_SERVER": "nginx",
     "PHP_MODULES": ["fpm"],
-    "PHP_EXTENSIONS": [ "curl", "fileinfo","openssl" , "gd", "pdo", "pdo_mysql", "zip", "mysql", "exif", "gettext", "mysqli"]
+    "PHP_EXTENSIONS": [ "curl", "fileinfo","openssl" , "gd", "pdo", "pdo_mysql", "zip", "exif", "gettext", "mysqli"]
 }
