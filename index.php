@@ -1,5 +1,6 @@
 <?php
-
+ini_set("display_errors","On");
+error_reporting(E_ALL);
 if (!file_exists(__DIR__ . '/install/install.lock'))
 {
     header("location:/install.php");
