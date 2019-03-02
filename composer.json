@@ -2,6 +2,13 @@
     "require": {
         "riverslei/payment": "*",
         "aileshe/upload": "*",
-        "endroid/qr-code": "^2.5"
+        "endroid/qr-code": "^2.5",
+        "php":"7.2.3",
+        "ext-zip": "*",
+        "ext-gd": "*",
+        "ext-fileinfo": "*",
+        "ext-mysqli": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*"
     }
 }
