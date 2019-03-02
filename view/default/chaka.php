@@ -1,4 +1,4 @@
-<?php require_once 'header.php' ?>
+<?php require_once 'header.php'; ?>
 <?php 
 ini_set("display_errors","On");
 error_reporting(E_ALL);?>
