@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
-    
+   <?php
+    ini_set("display_errors","On");
+error_reporting(E_ALL);
+    ?>
     <head>
         <meta charset="utf-8">
         <title>
