@@ -1,5 +1,5 @@
 {
     "ADMIN_EMAIL": "admin@ppxwo.net",
-    "PHP_EXTENSIONS": [ "sockets", "sundown", "twig", "xsl", "zip", "zlib","apc", "apcu","curl", "fileinfo","openssl" , "gd", "pdo", "pdo_mysql", "zip", "exif", "gettext", "mysqli", "mysql"],
+    "PHP_EXTENSIONS": [ "sockets", "xsl", "zip", "zlib", "apcu","curl", "fileinfo","openssl" , "gd", "pdo", "pdo_mysql", "zip", "exif", "gettext", "mysqli"],
     "ZEND_EXTENSIONS": ["opcache", "xdebug"]
 }
