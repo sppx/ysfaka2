@@ -1,5 +1,8 @@
 
-
+<?php
+ini_set("display_errors","On");
+error_reporting(E_ALL);
+?>
 
 <footer data-am-widget="footer"
         class="am-footer am-footer-default"
