@@ -1,4 +1,4 @@
 {
-    "ADMIN_EMAIL": "dan@mikusa.com",
+    "ADMIN_EMAIL": "admin@ppxwo.net",
     "PHP_EXTENSIONS": ["mbstring", "pgsql", "mcrypt", "gd", "zip", "pdo"]
 }
