@@ -31,7 +31,7 @@ CREATE TABLE `ys_acp`  (
   `is_ste` tinyint(1) NOT NULL DEFAULT 0 COMMENT '是否启用 1是 0否',
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `code`(`code`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 43 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_520_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of ys_acp
