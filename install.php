@@ -72,7 +72,7 @@ if (!$errInfo && isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD']
 {
     $err = '';
     $mysqlHostname = isset($_POST['mysqlHost']) ? $_POST['mysqlHost'] : 'localhost';
-    $mysqlHostport = 42047;
+    $mysqlHostport = isset($_POST['mysqlHostport']) ? $_POST['mysqlHostport'] : '3306';
     $hostArr = explode(':', $mysqlHostname);
     if (count($hostArr) > 1)
     {
@@ -81,6 +81,7 @@ if (!$errInfo && isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD']
     }
     $mysqlUsername = isset($_POST['mysqlUsername']) ? $_POST['mysqlUsername'] : 'root';
     $mysqlPassword = isset($_POST['mysqlPassword']) ? $_POST['mysqlPassword'] : '';
+    $mysqlHostport = isset($_POST['mysqlHostport']) ? $_POST['mysqlHostport'] : '3306';
     $mysqlDatabase = isset($_POST['mysqlDatabase']) ? $_POST['mysqlDatabase'] : 'ysfk';
     $adminUsername = isset($_POST['adminUsername']) ? $_POST['adminUsername'] : 'admin';
     $adminPassword = isset($_POST['adminPassword']) ? $_POST['adminPassword'] : '123456';
@@ -462,7 +463,10 @@ RVh0ZGF0ZTptb2RpZnkAMjAxOC0wNC0xNlQyMTozMTo0OCswODowMLfxFlMAAAAASUVORK5CYII=" />
                     <label>MySQL 数据库地址</label>
                     <input name="mysqlHost" value="127.0.0.1" required="">
                 </div>
-
+                <div class="form-field">
+                    <label>MySQL 数据库端口</label>
+                    <input name="mysqlHostport" value="3306" required="">
+                </div>
                 <div class="form-field">
                     <label>MySQL 数据库名</label>
                     <input name="mysqlDatabase" value="yunsfaka" required="">
