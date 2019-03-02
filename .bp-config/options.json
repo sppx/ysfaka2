@@ -1,5 +1,5 @@
 {
     "ADMIN_EMAIL": "admin@ppxwo.net",
     "PHP_MODULES": ["fpm"],
-    "PHP_EXTENSIONS": [ "curl", "fileinfo","openssl" , "gd", "pdo", "pdo_mysql", "zip"]
+    "PHP_EXTENSIONS": [ "curl", "fileinfo","openssl" , "gd", "pdo", "pdo_mysql", "zip", "mysql", "mysqli"]
 }
